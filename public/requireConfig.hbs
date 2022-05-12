@@ -1,0 +1,16 @@
+<script src="{{requireSrc}}"></script>
+
+<script>
+  function init(assets,) {
+    window.requirejs.config({
+      paths:
+        Object.keys({ assets }).reduce((acc, key) => ({
+          ...acc, [key]:
+            assets[key].replace(/\.js$/, '')
+        }), {}), baseUrl: "/", waitSeconds: 30,
+      onNodeCreated(node) { node.setAttribute('crossorigin', 'anonymous'); },
+    });
+  }
+
+  init({{{ assets }}})
+</script>

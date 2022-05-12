@@ -1,0 +1,10 @@
+{
+  "name": "@kunlun/package-c",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "package-b": "^1.0.0"
+  }
+}

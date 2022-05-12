@@ -1,0 +1,12 @@
+{
+  "name": "@kunlun/package-a",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "dependencies": {
+    "package-b": "^1.0.0",
+    "@kunlun/package-c": "^1.0.0",
+    "dx-runtime": "^1.0.0"
+  }
+}

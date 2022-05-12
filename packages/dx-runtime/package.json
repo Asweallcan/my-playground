@@ -1,0 +1,8 @@
+{
+  "name": "@kunlun/dx-runtime",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {}
+}
